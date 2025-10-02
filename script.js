@@ -8,18 +8,18 @@
 //   OU use icon: '⚔️' se preferir emoji
 
 const products = [
-    { id: 1, name: 'Espada de Ferro', price: 50.00, category: 'comum', sales: '5.2k vendidos', image: 'https://via.placeholder.com/200x200/4A90E2/FFFFFF?text=Espada' },
-    { id: 2, name: 'Escudo Místico', price: 150.00, category: 'raro', sales: '3.5k vendidos', image: 'https://via.placeholder.com/200x200/9B59B6/FFFFFF?text=Escudo' },
-    { id: 3, name: 'Armadura Celestial', price: 450.00, category: 'epico', sales: '1.8k vendidos', image: 'https://via.placeholder.com/200x200/8E44AD/FFFFFF?text=Armadura' },
+    { id: 1, name: 'Noobini Pizzanini', price: 50.00, category: 'comum', sales: '0 vendidos', image: 'https://t.ly/YPAjq' },
+    { id: 2, name: 'Trippi Troppi', price: 150.00, category: 'raro', sales: '0 vendidos', image: 'https://t.ly/XQkSC' },
+    { id: 3, name: 'Borbaloni LoliLoli', price: 450.00, category: 'epico', sales: '0 vendidos', image: 'https://t.ly/jClUI' },
     { id: 4, name: 'Espada Flamejante', price: 850.00, category: 'lendario', sales: '890 vendidos', image: 'https://via.placeholder.com/200x200/E67E22/FFFFFF?text=Fogo' },
     { id: 5, name: 'Cajado Arcano', price: 1200.00, category: 'mitico', sales: '420 vendidos', image: 'https://via.placeholder.com/200x200/1ABC9C/FFFFFF?text=Cajado' },
     { id: 6, name: 'Coroa Divina', price: 2500.00, category: 'god', sales: '180 vendidos', image: 'https://via.placeholder.com/200x200/F39C12/FFFFFF?text=Coroa' },
     { id: 7, name: 'Anel Sombrio', price: 5000.00, category: 'secret', sales: '45 vendidos', image: 'https://via.placeholder.com/200x200/34495E/FFFFFF?text=Anel' },
     { id: 8, name: 'Lâmina Ancestral', price: 10000.00, category: 'original', sales: '12 vendidos', image: 'https://via.placeholder.com/200x200/C0392B/FFFFFF?text=Lamina' },
-    { id: 9, name: 'Poção de Vida', price: 25.00, category: 'comum', sales: '8.1k vendidos', icon: '🧪' },
-    { id: 10, name: 'Botas Aladas', price: 350.00, category: 'epico', sales: '2.1k vendidos', icon: '👢' },
-    { id: 11, name: 'Amuleto da Sorte', price: 180.00, category: 'raro', sales: '3.7k vendidos', icon: '🔮' },
-    { id: 12, name: 'Machado do Trovão', price: 950.00, category: 'lendario', sales: '650 vendidos', icon: '⚡' },
+    { id: 9, name: 'Poção de Vida', price: 25.00, category: 'comum', sales: '8.1k vendidos', image: '🧪' },
+    { id: 10, name: 'Botas Aladas', price: 350.00, category: 'epico', sales: '2.1k vendidos', image: '👢' },
+    { id: 11, name: 'Amuleto da Sorte', price: 180.00, category: 'raro', sales: '3.7k vendidos', image: '🔮' },
+    { id: 12, name: 'Machado do Trovão', price: 950.00, category: 'lendario', sales: '650 vendidos', image: '⚡' },
 ];
 
 let cart = [];
@@ -151,4 +151,5 @@ function showNotification(message) {
 }
 
 // Inicializa a página
+
 renderProducts(products);
