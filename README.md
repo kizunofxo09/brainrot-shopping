@@ -1,2 +1,2 @@
 # brainrot-shopping
-murieeelll
+feito por mim para meu amigo!
